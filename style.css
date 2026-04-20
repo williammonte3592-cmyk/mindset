@@ -4,7 +4,7 @@ margin:0;
 .header{
     display: flex;
     justify-content:space-between;
-    background-color: #3f2e94;
+    background-color: #020008;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -13,12 +13,15 @@ margin:0;
     height : 100px;
     width :100px;
     border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
 }
 .body{
     margin: 0; 
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: burlywood;
     
 }
 .menu{
@@ -38,18 +41,13 @@ h1{
     color: rgb(176, 255, 7);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.box{margin: auto; text-align: center; border: 5px solid rgb(9, 10, 10);
-     margin-left: 500px; margin-right: 500px;background-color :rgb(59, 42, 194);
+.box{ text-align:left; border: 5px solid rgb(43, 43, 177); border-radius: 10px;
+     margin: auto;   background-color :rgb(42, 194, 161); width: 400px; height: 450px;
 }
-.travis{display: block;
+.travis{display: flex;
     height: 100px;width: 100px; border-radius: 50px; border-style: inherit; align-items: center;
 }
 footer{background-color: rgb(142, 117, 165); color: rgb(0, 0, 0);position: fixed;width: 100%;color: antiquewhite; padding: 5px;margin-top:20px;
-}
-main{ flex: 1;
-    display:flex;
-    align-items: center
-    justify-content :center;
 }
 
 
